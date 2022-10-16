@@ -1,17 +1,12 @@
-import {
-  BsPlus,
-  BsFillLightningFill,
-  BsPatchQuestionFill,
-} from "react-icons/bs";
+import { BsPlus, BsFillLightningFill, BsPatchQuestionFill } from "react-icons/bs";
 import { FaFire, FaPoo } from "react-icons/fa";
 import SideBarIcon from "./SideBarIcon";
 
 const SideBar = () => {
   return (
-    <div
-      className="fixed top-0 h-screen w-16 m-0 
-                 flex flex-col
-                bg-gray-800 text-white shadow-lg"
+    <div className="fixed top-0 h-screen w-16 m-0 
+                    flex flex-col
+                  bg-gray-800 text-white shadow-lg"
     >
       <SideBarIcon icon={<FaFire size="28" />} />
       <SideBarIcon icon={<BsPlus size="32" />} />
